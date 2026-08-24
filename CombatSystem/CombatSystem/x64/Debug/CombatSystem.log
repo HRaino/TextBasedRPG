@@ -1,0 +1,22 @@
+﻿  Source.cpp
+C:\Users\Rainbow Owl\Downloads\Final Project\CombatSystem\Shops.h(24,66): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+C:\Users\Rainbow Owl\Downloads\Final Project\CombatSystem\Player.h(72,54): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+C:\Users\Rainbow Owl\Downloads\Final Project\CombatSystem\Player.h(77,49): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+C:\Users\Rainbow Owl\Downloads\Final Project\CombatSystem\Player.h(434,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+C:\Users\Rainbow Owl\Downloads\Final Project\CombatSystem\Level.h(35,78): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+C:\Users\Rainbow Owl\Downloads\Final Project\CombatSystem\GameSystem.h(527,7): warning C4101: 'PlayerMovementInput': unreferenced local variable
+  (compiling source file 'Source.cpp')
+  
+C:\Users\Rainbow Owl\Downloads\Final Project\CombatSystem\Source.cpp(44,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Rainbow Owl\Downloads\Final Project\CombatSystem\Map.h(82,1): warning C4715: 'Map::CheckTile': not all control paths return a value
+  CombatSystem.vcxproj -> C:\Users\Rainbow Owl\Downloads\Final Project\CombatSystem\x64\Debug\CombatSystem.exe
