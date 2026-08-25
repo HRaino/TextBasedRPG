@@ -1,5 +1,8 @@
 # TextBasedRPG
-In Console Text based RPG using Visual Studio and C++. The "CombatSystem" folder is the file that contains all the txt files for the maps, and the code for the game. Overall, this was my first programming project that I wrote in 2023 that I am now uploading to GitHub. It uses basic logic components like if statements, for loops, while loops, arrays, vectors, etc. Hence all the nested logic and inefficient code that is in this project. Though I think its still a cool project for me at the time that helped me really understand objects and classes. Below I explain the main game loop and a lot of things that can be customized in code. Though I will not go to in depth into everything just a general idea.
+In Console Text based RPG using Visual Studio and C++. The "CombatSystem" folder is the file that contains all the txt files for the maps, and the code for the game. Overall, this was my first programming project that I wrote in 2023 that I am now uploading to GitHub. It uses basic logic components like if statements, for loops, while loops, arrays, vectors, etc. Hence all the nested logic and inefficient code that is in this project. Though I think its still a cool project for me at the time that helped me really understand objects and classes. A lot of things can be customized since things like items, stores, towns, levels, enemies, etc, are all objects that have their own classes so the initialization of all the objects can be changed/customized. The maps are also loaded in from text file so utilizing the different tiles that are outlined the map can be customized/changed from each individual tile to making the map as big or small as desired.
+
+## Simplified Flowchart of Main Game Loop:
+![Flowchart of Main Game Loop Logic](TextBasedRPG-FlowchartIMG.png)
 
 ## Concept Overview:
 ASCII style map that player can move around in containing the following tiles.
@@ -28,14 +31,18 @@ Image of how the game looks in this state.
 
 ![In game example image](TextBasedRPG-InGame.png)
 
+### Town Scenario
 From this state the player can trigger what can be grouped into three scenarios, Town, Inventory, and Combat. In the Town scenario the player is given options to open three different shops which each have their own inventory of items selling for different amounts of gold and each item has their own different stats. All of the item stats, names and each stores inventory and selling amounts can be customized in the code by modifying the specific object's initialization utilizing classes.
 
 Image of entering a town.
+
 ![Example Image of what it looks like when you enter a town](TextBasedRPG-TownScenario1.png)
 
 Image of shop.
+
 ![Example Image of what it looks like in shop](TextBasedRPG-TownScenario2.png)
 
+### Inventory Scenario
 In the Inventory scenario player is given options to assign stat points that are given when leveling up, look at items in their inventory and equip items that are weapons or armor and consume items that are consumable. Players can also access their skills and equip them if unlocked.
 
 Image of inventory options.
@@ -54,6 +61,7 @@ Image of item interaction page.
 
 ![Example Image of what it looks like when you open items page in inventory](TextBasedRPG-Inventory4.png)
 
+### Combat Scenario
 In the combat scenario there is two ways you can trigger combat. Normal combat is triggered from random chance when walking in grass on map. It will randomly pull 1 to 3 enemies from the pool of enemies that are in that level that are within the player's level. It will give you options to use default attacks, use either of the skills you equip or run away from combat. This is turn based so once the player takes a turn the enemy will take a turn. If there is multiple enemies the player will face them one by one in rounds. Once defeating all enemies there is a results page that will give experience points and gold depending on the enemies faced and show you if you level up and what stats increased, etc. Similarly, entering combat with a boss is triggered by stepping on the 'B' tile on the map. The main difference is that the boss can use skills and when defeating the boss you will unlock the skill for that level and gives you the ability to go onto the next level.
 
 Image of in combat.
@@ -63,6 +71,3 @@ Image of in combat.
 Image of results after combat.
 
 ![Example Image of what the results page looks like when you finish normal combat](TextBasedRPG-CombatScenario2.png)
-
-## Simplified Flowchart of Main Game Loop:
-![Flowchart of Main Game Loop Logic](TextBasedRPG-FlowchartIMG.png)
