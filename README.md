@@ -17,7 +17,10 @@ ASCII style map that player can move around in containing the following tiles.
 | '.' | grass (when player walks into tile they have a random chance of triggering an enemy encounter) |
 | ' ' | space (just empty space that player can walk through and does/triggers nothing) |
 
-* Maps are individual to each level and are loaded at the start of the game from text files. Meaning these text files can be edited/customized to make different maps utilizing the above mentioned "Tiles". Size of maps can be made bigger or smaller through the text file as well. Below is some images of the text files that are currently in the game.
+Maps are individual to each level and are loaded at the start of the game from text files. Meaning these text files can be edited/customized to make different maps utilizing the above mentioned "Tiles". Size of maps can be made bigger or smaller through the text file as well. Below is some images of the text files that are currently in the game.
 
+![Example Image of Text File Map 1 ](TextBasedRPG-Map1IMG.png)
+
+![Example Image of Text File Map 2 ](TextBasedRPG-Map2IMG.png)
 
 ## Simplified Flowchart of Main Game Loop:
