@@ -27,6 +27,7 @@ Maps are individual to each level and are loaded at the start of the game from t
 ![Example Image of Text File Map 2 ](TextBasedRPG-Map2IMG.png)
 
 In Game the player can move around and interact with these different tiles on the map utilizing a smaller window size that centers on the player as they move. This is also why the map size can be made bigger or smaller. 
+
 Image of how the game looks in this state.
 
 ![In game example image](TextBasedRPG-InGame.png)
